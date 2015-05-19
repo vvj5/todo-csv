@@ -5,7 +5,8 @@ require_relative './spec_helper'
 class TodoTest < Test::Unit::TestCase
 
   def todo_setup
-    $input, $output = [] # Reset all messages between tests
+    $input = []
+    $output = [] # Reset all messages between tests
     @todo = Todo.new('test_todos.csv') # Given
   end
 
@@ -31,6 +32,7 @@ class TodoTest < Test::Unit::TestCase
 
   #def test_view_todos_prints_todos
   #  todo_setup # Given
+  #  @tot.view_todos # When
   #  assert_equal("1) finish homework", $output[1]) # Then
   #end
 
