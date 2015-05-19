@@ -1,3 +1,5 @@
+Will
+
 # TODO APP
 
 ## Description
@@ -19,7 +21,7 @@
   - Be able to create production code based on tests
 
 ## Details
- 
+
 ### Deliverables
 
   - A forked copy of this repo.
@@ -27,13 +29,13 @@
 ### Requirements
 
   - All tests must pass.
-  - I must be able to run `ruby bin/todo.rb` and file must run without errors. 
+  - I must be able to run `ruby bin/todo.rb` and file must run without errors.
   - Code must adhear to the ruby style guide.
 
 ### Normal Mode
 
-  - Have all the tests pass. 
-  - This will allow users to start the program and view their existing todos. 
+  - Have all the tests pass.
+  - This will allow users to start the program and view their existing todos.
   - They will then be able to add new todos or mark existing todos as complete.
 
 ### Hard Mode
