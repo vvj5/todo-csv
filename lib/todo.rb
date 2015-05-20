@@ -50,7 +50,7 @@ class Todo
   def mark_todo
     print "Which todo have you finished?"
     response = get_input
-     @todos[1]["completed"] = "yes"
+     @todos[0]["completed"] = "yes"
   end
 
   def todos
